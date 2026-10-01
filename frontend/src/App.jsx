@@ -212,9 +212,8 @@ export default function App() {
           </SectionHeading>
           <div className="section-content">
             <p className="section-intro">
-              Beyond my studies, I give my time to events and environmental
-              activities. Contributing to my community is part of how I support
-              Kazakhstan’s development.
+              Beyond my studies, I give my time to sporting events. Contributing
+              to my community is part of how I support Kazakhstan’s development.
             </p>
             <article className="experience-item">
               <div className="timeline-meta">
@@ -241,13 +240,13 @@ export default function App() {
             </article>
             <article className="experience-item">
               <div className="timeline-meta">
-                <span>DURING SECONDARY SCHOOL</span>
-                <span>ENVIRONMENTAL VOLUNTEER</span>
+                <span>INTERNATIONAL EVENT</span>
+                <span>ATTACHÉ VOLUNTEER</span>
               </div>
-              <h3>Local riverbank cleanup</h3>
+              <h3>Games of the Future</h3>
               <p>
-                Collected litter along a local riverbank, contributing to a
-                cleaner environment and supporting the community.
+                Guided international players throughout the event as an attaché
+                volunteer, helping them navigate the venue and event activities.
               </p>
             </article>
           </div>
