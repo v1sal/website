@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const email = "alikhan.skyranger@gmail.com";
 const sections = [
@@ -340,6 +341,7 @@ export default function App() {
         </span>
         <a href="#profile">Back to top ↑</a>
       </footer>
+      <Analytics />
     </>
   );
 }
