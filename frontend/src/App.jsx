@@ -212,8 +212,10 @@ export default function App() {
           </SectionHeading>
           <div className="section-content">
             <p className="section-intro">
-              Beyond my studies, I give my time to sporting events. Contributing
-              to my community is part of how I support Kazakhstan’s development.
+              I communicate confidently and enjoy helping people feel informed
+              and supported. My volunteering experience has given me
+              opportunities to connect with people from different backgrounds
+              and contribute to my community.
             </p>
             <article className="experience-item">
               <div className="timeline-meta">
@@ -245,8 +247,11 @@ export default function App() {
               </div>
               <h3>Games of the Future</h3>
               <p>
-                Guided international players throughout the event as an attaché
-                volunteer, helping them navigate the venue and event activities.
+                Supported international players as an attaché volunteer
+                throughout the event. Guided them through an unfamiliar
+                environment and served as a point of contact, helping them
+                understand event arrangements and feel supported during their
+                experience abroad.
               </p>
             </article>
           </div>
