@@ -6,6 +6,7 @@ const sections = [
   ["profile", "Profile"],
   ["education", "Education"],
   ["experience", "Volunteering"],
+  ["projects", "Projects"],
   ["skills", "Skills"],
   ["contact", "Contact"],
 ];
@@ -257,8 +258,28 @@ export default function App() {
             </article>
           </div>
         </section>
+        <section className="content-section" id="projects">
+          <SectionHeading number="03" command="ls projects/">
+            Learning by building.
+          </SectionHeading>
+          <div className="section-content">
+            <article>
+              <p className="eyebrow">PERSONAL SIDE PROJECT</p>
+              <h3>LoadWise</h3>
+              <a
+                className="button secondary"
+                href="https://loadwise-virid.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore LoadWise <span aria-hidden="true">↗</span>
+                <span className="file-type">NEW TAB</span>
+              </a>
+            </article>
+          </div>
+        </section>
         <section className="content-section" id="skills">
-          <SectionHeading number="03" command="cat learning.md">
+          <SectionHeading number="04" command="cat learning.md">
             Always a work in progress.
           </SectionHeading>
           <div className="section-content">
