@@ -289,9 +289,9 @@ export default function App() {
                 <span>EVENT VOLUNTEER</span>
               </div>
               <h3>PGL Astana</h3>
+              <p className="entry-subtitle">Esports event</p>
               <p>
-                Helped attendees navigate the venue and find their way between
-                areas.
+                Guided international guests through event venues, helping them find their way and feel welcome throughout the esports event.
               </p>
             </article>
             <article className="experience-item">

@@ -356,7 +356,7 @@ h1 > span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -1px;
-  margin: 20px 0;
+  margin: 28px 0 20px;
   max-width: 250px;
 }
 .timeline-item {
@@ -715,7 +715,7 @@ footer {
   .section-heading h2 {
     max-width: none;
     font-size: 28px;
-    margin: 12px 0;
+    margin: 20px 0 12px;
   }
   .section-content {
     padding-left: 26px;
