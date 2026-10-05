@@ -291,7 +291,8 @@ export default function App() {
               <h3>PGL Astana</h3>
               <p className="entry-subtitle">Esports event</p>
               <p>
-                Guided international guests through event venues, helping them find their way and feel welcome throughout the esports event.
+                Guided international guests through event venues, helping them
+                find their way and feel welcome throughout the esports event.
               </p>
             </article>
             <article className="experience-item">
@@ -302,8 +303,9 @@ export default function App() {
               <h3>President’s Trophy Hockey Tournament</h3>
               <p className="entry-subtitle">Kazakhstan national championship</p>
               <p>
-                Guided spectators between seating sectors, helping manage crowd
-                flow and reduce congestion for a smoother visitor experience.
+                Guided international viewers through the venue and between
+                seating sectors, helping them find their way and enjoy a smooth
+                event experience.
               </p>
             </article>
             <article className="experience-item">
