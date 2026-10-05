@@ -356,7 +356,7 @@ h1 > span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -1px;
-  margin: 28px 0 20px;
+  margin: 20px 0;
   max-width: 250px;
 }
 .timeline-item {
@@ -400,6 +400,9 @@ h3 {
   letter-spacing: -0.4px;
   font-weight: 500;
   margin: 0 0 10px;
+}
+.section-content {
+  padding-top: 48px;
 }
 .section-content p {
   font-size: 13px;
@@ -715,9 +718,10 @@ footer {
   .section-heading h2 {
     max-width: none;
     font-size: 28px;
-    margin: 20px 0 12px;
+    margin: 12px 0;
   }
   .section-content {
+    padding-top: 0;
     padding-left: 26px;
   }
   .timeline-item {
