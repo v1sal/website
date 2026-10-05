@@ -5,9 +5,9 @@ const email = "alikhan.skyranger@gmail.com";
 const sections = [
   ["profile", "Profile"],
   ["education", "Education"],
-  ["experience", "Volunteering"],
   ["projects", "Projects"],
   ["skills", "Skills"],
+  ["experience", "Volunteering"],
   ["contact", "Contact"],
 ];
 
@@ -208,8 +208,72 @@ export default function App() {
             </div>
           </div>
         </section>
+        <section className="content-section" id="projects">
+          <SectionHeading number="02" command="ls projects/">
+            Learning by building.
+          </SectionHeading>
+          <div className="section-content">
+            <article>
+              <p className="eyebrow">PERSONAL SIDE PROJECT</p>
+              <h3>LoadWise</h3>
+              <a
+                className="button secondary"
+                href="https://loadwise-virid.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore LoadWise <span aria-hidden="true">↗</span>
+                <span className="file-type">NEW TAB</span>
+              </a>
+            </article>
+          </div>
+        </section>
+        <section className="content-section" id="skills">
+          <SectionHeading number="03" command="cat learning.md">
+            Always a work in progress.
+          </SectionHeading>
+          <div className="section-content">
+            <div className="skill-row">
+              <div>
+                <h3>C++</h3>
+                <p>Currently learning</p>
+              </div>
+              <span className="tag">BEGINNER</span>
+            </div>
+            <div className="interest-block">
+              <p className="eyebrow">PERSONAL INTEREST</p>
+              <h3>OSINT & research</h3>
+              <p>
+                I’m drawn to researching publicly available information and
+                connecting clues. It’s an interest driven by curiosity that I
+                want to develop through further learning.
+              </p>
+            </div>
+            <div className="languages">
+              <p className="eyebrow">LANGUAGES</p>
+              <dl>
+                <div>
+                  <dt>Kazakh</dt>
+                  <dd>Spoken language</dd>
+                </div>
+                <div>
+                  <dt>Russian</dt>
+                  <dd>Spoken language</dd>
+                </div>
+                <div>
+                  <dt>English</dt>
+                  <dd>IELTS 7.0</dd>
+                </div>
+                <div>
+                  <dt>Korean</dt>
+                  <dd>Beginner · learning</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </section>
         <section className="content-section" id="experience">
-          <SectionHeading number="02" command="ls community/">
+          <SectionHeading number="04" command="ls community/">
             Showing up matters.
           </SectionHeading>
           <div className="section-content">
@@ -256,70 +320,6 @@ export default function App() {
                 experience abroad.
               </p>
             </article>
-          </div>
-        </section>
-        <section className="content-section" id="projects">
-          <SectionHeading number="03" command="ls projects/">
-            Learning by building.
-          </SectionHeading>
-          <div className="section-content">
-            <article>
-              <p className="eyebrow">PERSONAL SIDE PROJECT</p>
-              <h3>LoadWise</h3>
-              <a
-                className="button secondary"
-                href="https://loadwise-virid.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Explore LoadWise <span aria-hidden="true">↗</span>
-                <span className="file-type">NEW TAB</span>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section className="content-section" id="skills">
-          <SectionHeading number="04" command="cat learning.md">
-            Always a work in progress.
-          </SectionHeading>
-          <div className="section-content">
-            <div className="skill-row">
-              <div>
-                <h3>C++</h3>
-                <p>Currently learning</p>
-              </div>
-              <span className="tag">BEGINNER</span>
-            </div>
-            <div className="interest-block">
-              <p className="eyebrow">PERSONAL INTEREST</p>
-              <h3>OSINT & research</h3>
-              <p>
-                I’m drawn to researching publicly available information and
-                connecting clues. It’s an interest driven by curiosity that I
-                want to develop through further learning.
-              </p>
-            </div>
-            <div className="languages">
-              <p className="eyebrow">LANGUAGES</p>
-              <dl>
-                <div>
-                  <dt>Kazakh</dt>
-                  <dd>Spoken language</dd>
-                </div>
-                <div>
-                  <dt>Russian</dt>
-                  <dd>Spoken language</dd>
-                </div>
-                <div>
-                  <dt>English</dt>
-                  <dd>IELTS 7.0</dd>
-                </div>
-                <div>
-                  <dt>Korean</dt>
-                  <dd>Beginner · learning</dd>
-                </div>
-              </dl>
-            </div>
           </div>
         </section>
         <section id="contact" className="contact-section">
